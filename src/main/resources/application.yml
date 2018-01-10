@@ -1,0 +1,11 @@
+---
+server:
+  port: 8989
+
+turbine:
+  aggregator:
+    clusterConfig: COMPOSITE-PRODUCT-SERVICE
+  appConfig: COMPOSITE-PRODUCT-SERVICE
+
+logging:
+  level: INFO
